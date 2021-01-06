@@ -9,7 +9,7 @@ public class StudentSchedular {
 	
 	private  Student[] students=new Student[10];
     private  int counterStudent;
-    String[] takenCourses;
+    
     Scanner sc=new Scanner(System.in);
 	
 	public String addStudent(int rollNumber,String name,String[] courses)
